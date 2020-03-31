@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  margin:0 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.label {
+  margin: 10px;
+}
+.input {
+  margin-left: 5px;
+}
+.submitBtn {
+  width: 60px;
+  height: 30px;
+}
+.resultArea{
+  display: flex;
+  margin: 0 10px;
+}
+h2{
+  font-weight: normal;
+  font-size: 1.35rem;
+}
