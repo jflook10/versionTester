@@ -1,0 +1,14 @@
+.infoPanel {
+    background-color: #e1ecf3;
+}
+
+.infoImage {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 70px;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 1.35rem;
+}

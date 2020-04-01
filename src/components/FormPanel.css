@@ -1,0 +1,35 @@
+.formPanel {
+    border-left: 1px solid #b2c4cf;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 15px;
+}
+.input {
+    height: 40px;
+    width: 300px;
+    margin: 10px 5px 0;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid #b2c4cf;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.submitBtn {
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    border: 1px solid #b2c4cf;
+    font-size: 1rem;
+}
+.resultArea{
+    display: flex;
+    margin: 0 10px;
+}

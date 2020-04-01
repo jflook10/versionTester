@@ -1,27 +1,17 @@
 .App {
   text-align: center;
-  margin:0 10px;
+  height: 100vh;
+  color: #3D3D3D
 }
-.form {
+.panels {
+  display: flex;
+  height: 100%;
+}
+.panels .infoPanel, .panels .formPanel {
+  width: 100%;
+  padding: 10px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-}
-.label {
-  margin: 10px;
-}
-.input {
-  margin-left: 5px;
-}
-.submitBtn {
-  width: 60px;
-  height: 30px;
-}
-.resultArea{
-  display: flex;
-  margin: 0 10px;
-}
-h2{
-  font-weight: normal;
-  font-size: 1.35rem;
 }
